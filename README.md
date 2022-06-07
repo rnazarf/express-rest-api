@@ -26,3 +26,21 @@ Install node package
 
 `npm install`
 
+rename `.env.example` menjadi `.env`. dan atur sesuai lokal environment milik anda
+
+kemudian jalankan perintah berikut ini untuk create database
+
+`npx sequelize-cli db:create`
+
+jalankan perintah berikut ini untuk create table
+
+`npm run db:migrate`
+
+jalankan perintah berikut ini untuk menjalankan seeder
+
+`npm run db:seed`
+
+jalankan perintah berikut ini untuk melakukan migrasi ulang
+
+`npm run db:reset`
+
