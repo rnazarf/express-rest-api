@@ -15,3 +15,14 @@
   > multer v1.4.5,
   > mysql2 v2.3.3,
   > sequelize v6.20.1
+
+# Setup Local
+
+Clone repository
+
+`git clone https://github.com/rnazarf/express-rest-api.git`
+
+Install node package
+
+`npm install`
+
