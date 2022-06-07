@@ -58,6 +58,8 @@ Login Heroku.
 
 create new app pada heroku.
 
+setting config variabel pada app yang telah dibuah.
+
 buka cmd jalankan perintah, untuk login pada heroku
 
 `heroku login`
