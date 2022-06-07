@@ -46,5 +46,5 @@ jalankan perintah berikut ini untuk melakukan migrasi ulang
 
 jalankan perintah berikut ini untuk menjalankan server
 
-`npm run dev` / `npm run prod'
+`npm run dev` / `npm run prod`
 
