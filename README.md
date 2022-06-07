@@ -1,6 +1,6 @@
 # Tech Spec
   > ExpressJS
-  > Database MySql
+  > MySql
 
 # Library
   > bcryptjs v2.4.3
