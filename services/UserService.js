@@ -1,5 +1,5 @@
-const { User } = require('../models');
-const { hashPassword, comparePassword } = require('../libs/password');
+const { User } = require('@models');
+const { hashPassword, comparePassword } = require('../utils/password');
 
 class UserService {
   async getAllUser(limit = 10, offset = 0) {
@@ -106,7 +106,7 @@ class UserService {
 
     return user;
   }
-  
+
 }
 
 module.exports = UserService;

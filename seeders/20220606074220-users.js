@@ -1,6 +1,5 @@
 'use strict';
-
-const { hashPassword } = require('../libs/password');
+const { hashPassword } = require('../utils/password');
 
 module.exports = {
   async up(queryInterface, Sequelize) {
@@ -13,7 +12,6 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
     */
-
     await queryInterface.bulkInsert('users', [{
       name: 'Rifki Nazar Firdaus',
       email: 'rifkinazar24@gmail.com',

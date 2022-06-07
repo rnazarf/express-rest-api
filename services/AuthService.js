@@ -1,5 +1,5 @@
-const { User } = require('../models');
-const { hashPassword, comparePassword } = require('../libs/password');
+const { User } = require('@models');
+const { comparePassword } = require('../utils/password');
 const jwt = require('jsonwebtoken');
 
 class AuthService {

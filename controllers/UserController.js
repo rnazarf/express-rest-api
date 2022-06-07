@@ -1,7 +1,7 @@
-const UserService = require("../services/UserService");
+const UserService = require('@services/UserService');
 const userService = new UserService();
 const { UserCreatePayloadSchema, UserUpdatePayloadSchema } = require("../validator/UserRequestValidator");
-const { errorRes, successRes } = require("../common/response");
+const { errorRes, successRes } = require("@common/response");
 
 class UserController {
   async getAllUser(req, res) {
@@ -50,7 +50,7 @@ class UserController {
       }
 
       return successRes(res, user);
-    } catch (error) {      
+    } catch (error) {
       return errorRes(res, error, error.message);
     }
   }
@@ -82,7 +82,7 @@ class UserController {
       return errorRes(res, error, error.message);
     }
   }
-  
+
 }
 
 module.exports = UserController;

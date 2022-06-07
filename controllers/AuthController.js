@@ -1,6 +1,6 @@
-const { successRes, errorRes } = require('../common/response');
-const AuthService = require('../services/AuthService');
+const AuthService = require('@services/AuthService');
 const authService = new AuthService();
+const { successRes, errorRes } = require('@common/response');
 
 class AuthController {
   async login(req, res) {

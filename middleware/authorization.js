@@ -12,7 +12,7 @@ const verifyToken = (req, res, next) => {
 
     const decoded = jwt.verify(token, process.env.JWT_TOKEN);
 
-    if (!decoded) throw new Error('Invalid token');    
+    if (!decoded) throw new Error('Invalid token');
 
     req.user = decoded;
     next();
