@@ -44,3 +44,7 @@ jalankan perintah berikut ini untuk melakukan migrasi ulang
 
 `npm run db:reset`
 
+jalankan perintah berikut ini untuk menjalankan server
+
+`npm run dev` / `npm run prod'
+
