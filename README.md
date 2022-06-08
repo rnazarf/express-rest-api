@@ -72,4 +72,4 @@ jalankan peintah
 
 `heroku run npm run db:migrate` && `heroku run npm run db:seed`
 
-Deployment https://rolling-rest-api.herokuapp.com/
+Hasil Deployment https://rolling-rest-api.herokuapp.com/
