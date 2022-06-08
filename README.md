@@ -1,4 +1,4 @@
-# Tech Spec
+# Tech Stack
 
 > ExpressJS,
 > MySql
