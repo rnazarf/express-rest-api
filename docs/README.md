@@ -19,3 +19,5 @@ Hindari melakukan join ke view table.
 ### Deployment Heroku :
 
 Saya menggunakan heroku saat deployment disini karena gratis, dan proses untuk deploynya mudah.
+
+https://rolling-rest-api.herokuapp.com/
